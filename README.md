@@ -40,3 +40,6 @@ Prérequis
 ## Supprimer un utilisateur : delete.php
 
     Supprime un utilisateur spécifique de la base de données.
+
+    ![addButton](https://github.com/rene-belin/CRUD_Utilisateurs/assets/145906989/7125bf10-78ec-424f-bc11-1ac761533d14)
+
