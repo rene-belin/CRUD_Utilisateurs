@@ -51,6 +51,8 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                             <!--  Affichage de l'email de l'utilisateur -->
                             <td><?php echo $row['email'] ?></td>
+    <td><a class="btn btn-danger" href="delete.php?id=<?php echo $row['id'] ?>">Supprimer</a></td>
+    <td><a class="btn btn-warning" href="update.php?id=<?php echo $row['id'] ?>">Modifier</a></td>
                         </tr>
                     <?php endforeach; ?>
                     <!-- ************ endforeach ************ -->
